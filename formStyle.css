@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #34495e;
+  letter-spacing: 1rem;
+  text-shadow: 0.2rem 0.2rem 0.5rem #aaa;
+}
+
+.form-bg {
+  position: absolute;
+  width: 55rem;
+  height: 55rem;
+  box-shadow: 1.5rem 1.5rem 1.5rem #ddd;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input-wrapper {
+  margin: 1.5rem 0;
+  box-shadow: 0.5rem 0.5rem 0.5rem #eee;
+  border-radius: 5rem;
+  position: relative;
+}
+
+.form input {
+  width: 30rem;
+  height: 2rem;
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 0 2rem;
+  letter-spacing: 0.2rem;
+  border: none;
+  border-radius: 5rem;
+}
+
+.form-input {
+  box-shadow: 0.3rem 0.3rem 0.5rem #eee inset;
+  color: #34495e;
+}
+
+.form-btn {
+  box-shadow: 0.5rem 0.5rem 1rem #ddd;
+  color: #34495e;
+  margin: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: top 0.3s 0.3s, box-shadow 0.3s;
+}
+
+.form-btn:hover {
+  box-shadow: 0.5rem 0.5rem 2rem rgb(149, 193, 243);
+}
+
+@media (min-width: 770px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .form-bg {
+    width: 45rem;
+    height: 35rem;
+  }
+  .form input {
+    width: 35rem;
+  }
+}
+@media (max-width: 770px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+  .form-bg {
+    height: 35rem;
+    width: 40rem;
+  }
+  .form input {
+    width: 25rem;
+  }
+}/*# sourceMappingURL=formStyle.css.map */

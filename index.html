@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Delicious</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="formStyle.css" rel="stylesheet">
+        <link href="recipeStyle.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+<!-------------------------header------------------------->
+        
+        <header>
+            <h1><a href="#">Delicious <img src="https://cdn-icons-png.flaticon.com/512/2316/2316897.png" width="40px"></a></h1>
+            
+            <ul class="nav-main">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul class="nav-social">
+                <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook" width="30px"></a></li>
+                <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="Twitter" width="30px"></a></li>
+                <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" alt="Youtube" width="30px"></a></li>
+
+            </ul>
+        </header>
+
+<!-------------------------Recipes------------------------->
+
+<div class="Recipes">
+
+  <div class="Recipe">
+      <h3>Cinnamon–Chocolate Chunk Skillet Cookie</h3>
+      <img src="https://assets.epicurious.com/photos/58596f66e273b7ec51f9227a/1:1/w_1920%2Cc_limit/cook-90-Cinnamon-Chocolate-Chunk-Skillet-Cookie-08122016.jpg" alt="CinnamonChocolateChunkSkilletCookie">
+      <p>If you prefer your cookies with lots of melty chocolate—and a big scoop of ice cream on top—this sharable dessert is for you.</p>
+      <a href="https://www.epicurious.com/recipes/food/views/cinnamon-chocolate-chunk-skillet-cookie" target="_blank">GET THIS RECIPE</a>
+  </div>
+
+  <div class="Recipe">
+      <h3>Gooey Butter Cake</h3>
+      <img src="https://assets.epicurious.com/photos/62152a1012bc460766e8273b/1:1/w_1920%2Cc_limit/GooeyButterCake_RECIPE_021622_28630.jpg" alt="GooeyButterCake">
+      <p>The signature dessert of St. Louis is just what its name suggests—a wonderfully gooey butter cake that doesn’t quite set when baked.</p>
+      <a href="https://www.epicurious.com/recipes/food/views/gooey-butter-cake" target="_blank">GET THIS RECIPE</a>
+  </div>
+
+  <div class="Recipe">
+      <h3>Apple Sticky Toffee Pudding</h3>
+      <img src="https://assets.epicurious.com/photos/630ce46890329621926aad6f/1:1/w_1920%2Cc_limit/StickyToffeePudding_RECIPE_082522_38887.jpg" alt="AppleStickyToffeePudding">
+      <p>What happens when sticky toffee pudding meets apple cake? A gooey dessert you definitely want to put on your fall baking agenda.</p>
+      <a href="https://www.epicurious.com/recipes/food/views/apple-sticky-toffee-pudding" target="_blank">GET THIS RECIPE</a>
+  </div>
+
+  <div class="Recipe">
+      <h3>Molten Double Chocolate Mug Cake</h3>
+      <img src="https://assets.epicurious.com/photos/6234d9165bb8353b7c2f49e7/1:1/w_1920%2Cc_limit/MoltenCake_HERO_RECIPE_031722_30158.jpg" alt="MoltenDoubleChocolateMugCake">
+      <p>You only need three minutes to make this cake. What are you even waiting for?</p>
+      <a href="https://www.epicurious.com/recipes/food/views/easy-molten-double-chocolate-mug-cake" target="_blank">GET THIS RECIPE</a>
+  </div>
+
+  <div class="Recipe">
+      <h3>Molten Chocolate Chunk Brownies</h3>
+      <img src="https://assets.epicurious.com/photos/5a61199039b7695554110385/1:1/w_1920,c_limit/molten-chocolate-chunk-brownies-recipe-HC-011818.jpg" alt="MoltenChocolateChunkBrownies">
+      <p>Every time we look at this recipe, we're tempted to dive headfirst into these superlatively gooey brownies. Bake up a batch so you can do the same.</p>
+      <a href="https://www.epicurious.com/recipes/food/views/molten-chocolate-chunk-brownies" target="_blank">GET THIS RECIPE</a>
+  </div>
+
+  <div class="Recipe">
+      <h3>Giant Chocolate Caramel Cookie Bars</h3>
+      <img src="https://assets.epicurious.com/photos/57f8084b65f91f073d177aa4/1:1/w_1920%2Cc_limit/Giant-Halloween-Twix-Recipe-hero-06102016.jpg" alt="GiantChocolateCaramelCookie Bars">
+      <p>Think of this as a jumbo version of your favorite Halloween candy.</p>
+      <a href="https://www.epicurious.com/recipes/food/views/giant-chocolate-caramel-cookie-bars" target="_blank">GET THIS RECIPE</a>
+  </div>
+  
+</div> 
+  
+<!-------------------------Form------------------------->
+
+        <div class="container">
+            <h2 class="heading">Share with us</h2>
+            <div class="form-bg"></div>
+            <form class="form" id="add-post-form">
+              <div class="form-input-wrapper">
+                <input
+                  type="text"
+                  class="form-input"
+                  id="recipeName"
+                  placeholder="Recipe Name"
+                />
+              </div>
+              <div class="form-input-wrapper">
+                <input
+                  type="text"
+                  class="form-input"
+                  id="recipesImg"
+                  placeholder="Image"
+                />
+              </div>
+              <div class="form-input-wrapper">
+                <input
+                  type="text"
+                  class="form-input"
+                  id="description"
+                  placeholder="Description"
+                />
+              </div>
+              <div class="form-input-wrapper">
+                <input
+                  type="url"
+                  class="form-input"
+                  id="url"
+                  placeholder="Recipe Website"
+                />
+              </div>
+              <input type="submit" value="Submit" class="form-btn" />
+            </form>
+          </div>
+
+        <script src="script.js"></script>
+    
+    </body>
+</html>
